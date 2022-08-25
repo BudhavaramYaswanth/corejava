@@ -1,0 +1,13 @@
+package app;
+
+public class additionExample extends calculator {
+    public static void main(String[] args) {
+    	additionExample A=new additionExample();
+    	
+        A.add(23.65);
+    	A.sub(43,23);
+  //  	c.mul(3,6);
+//    	c.div(30,3);
+	
+}
+}
