@@ -3,7 +3,7 @@ package oops.inheritance;
 public class Parent {
 	public void surname()
 	{
-		System.out.println("B");
+		System.out.println("Budhavaram");
 	}
 	public void asserts()
 	{
