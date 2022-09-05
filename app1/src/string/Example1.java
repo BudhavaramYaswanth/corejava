@@ -7,5 +7,6 @@ public static void main(String[] args) {
 			+"sdyguihgkj+fdsjkhk,ngfb+jhdcgbjkkbgf";
 			int count=name.length();
 			System.out.println(count);
+			
 }
 }

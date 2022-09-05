@@ -9,6 +9,10 @@ public class Example {
 		String name1 ="Yaswanth";
 		String name2 =name1.toUpperCase();
 		System.out.println(name2);
+		
+		String name3="ABCYASH";
+		String name4=name3.toLowerCase();
+		System.out.println(name4);
 	}
 
 }
