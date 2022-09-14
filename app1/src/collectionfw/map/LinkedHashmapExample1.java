@@ -1,12 +1,14 @@
 package collectionfw.map;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class MapExample1 {
+@SuppressWarnings("unused")
+public class LinkedHashmapExample1 {
 	
 	public static void main(String[] args) {
-		Map <Integer,String> map=new HashMap<> ();
+		Map <Integer,String> map=new LinkedHashMap <> ();
 		
 		map.put(1, "abc");
 		map.put(2, "aaa");
@@ -19,3 +21,4 @@ public class MapExample1 {
 		System.out.println(map);
 	}
 }
+
