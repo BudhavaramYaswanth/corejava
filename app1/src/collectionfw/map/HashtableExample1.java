@@ -1,12 +1,15 @@
 package collectionfw.map;
 
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Map;
 
-public class MapExample1 {
+@SuppressWarnings("unused")
+
+public class HashtableExample1 {
 	
 	public static void main(String[] args) {
-		Map <Integer,String> map=new HashMap<> ();
+		Map <Integer,String> map=new Hashtable <> ();
 		
 		map.put(1, "abc");
 		map.put(2, "aaa");
@@ -19,3 +22,4 @@ public class MapExample1 {
 		System.out.println(map);
 	}
 }
+
